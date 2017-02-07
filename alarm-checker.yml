@@ -1,2 +1,5 @@
 some:
  text: yoooooooo
+
+server:
+ port: 8090
