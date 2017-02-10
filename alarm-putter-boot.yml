@@ -5,3 +5,8 @@ redis:
 mongo:
  host: localhost
  port: 27017
+
+receiver:
+ using:
+  http: true
+  kafka: false
