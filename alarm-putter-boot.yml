@@ -12,8 +12,6 @@ receiver:
   kafka: false
   
 db:
- type:
-  mongodb:
-   enabled: true
-  oracle:
-   enabled: false
+ using:
+   mongodb: true
+   oracle: false
