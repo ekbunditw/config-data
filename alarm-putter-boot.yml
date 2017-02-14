@@ -10,3 +10,10 @@ receiver:
  using:
   http: true
   kafka: false
+  
+db:
+ type:
+  mongodb:
+   enabled: true
+  oracle:
+   enabled: false
