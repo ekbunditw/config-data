@@ -7,3 +7,8 @@ server:
 redis:
  host: localhost
  port: 6379
+ 
+wakeup:
+ interval:
+  in:
+   millisecond: 30000
