@@ -11,4 +11,4 @@ redis:
 wakeup:
  interval:
   in:
-   millisecond: 30000
+   milliseconds: 30000
