@@ -12,3 +12,8 @@ wakeup:
  interval:
   in:
    milliseconds: 60000
+
+alarm-checker:
+ servicename:
+  to:
+   takecare:SBMLBS,SBMTEST,SBM
