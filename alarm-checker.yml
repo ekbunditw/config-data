@@ -16,4 +16,4 @@ wakeup:
 alarm-checker:
  servicename:
   to:
-   takecare:SBMLBS,SBMTEST,SBM
+   takecare: SBMLBS,SBMTEST,SBM
