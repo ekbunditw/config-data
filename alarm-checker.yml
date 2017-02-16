@@ -16,6 +16,6 @@ wakeup:
 alarm-checker:
  servicename:
   to:
-   takecare: SBMLBS,SBMTEST,SBM
+   takecare: SBMLBS
  mock:
   nx: true
