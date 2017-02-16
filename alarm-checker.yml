@@ -17,3 +17,5 @@ alarm-checker:
  servicename:
   to:
    takecare: SBMLBS,SBMTEST,SBM
+ mock:
+  nx: true
