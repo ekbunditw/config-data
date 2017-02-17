@@ -23,3 +23,8 @@ alarm-checker:
 mongo:
  host: localhost
  port: 27017
+ 
+db:
+ using:
+   mongodb: true
+   oracle: false
