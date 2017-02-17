@@ -19,3 +19,7 @@ alarm-checker:
    takecare: SBMLBS
  mock:
   nx: true
+
+mongo:
+ host: localhost
+ port: 27017
