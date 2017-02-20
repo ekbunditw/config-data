@@ -34,6 +34,7 @@ alarm-config:
   time-out-millisec: 60000
   address: 1234
   port: 8080
+  class: yeah
   enterprise-oid: 0
   class-oid: 1
   amo-oid: 2
