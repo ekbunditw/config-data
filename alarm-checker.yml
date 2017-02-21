@@ -44,10 +44,10 @@ alarm-config:
   date-time-oid: 6
   
   
-  #logging part
-  logging:
-   level:
-    com:
-     truemove:
-      sbm: DEBUG
+#logging part
+logging:
+ level:
+  com:
+   truemove:
+    sbm: DEBUG
   
