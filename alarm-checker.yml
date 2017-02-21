@@ -30,7 +30,7 @@ db:
    oracle: false
 
 alarm-config:
- snmp:
+ snmp: 
   time-out-millisec: 60000
   address: 1234
   port: 8080
