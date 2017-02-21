@@ -43,3 +43,11 @@ alarm-config:
   severity-oid: 5
   date-time-oid: 6
   
+  
+  #logging part
+  logging:
+   level:
+    com:
+     truemove:
+      sbm:
+  
