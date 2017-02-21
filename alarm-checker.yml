@@ -49,5 +49,5 @@ alarm-config:
    level:
     com:
      truemove:
-      sbm: debug
+      sbm: DEBUG
   
