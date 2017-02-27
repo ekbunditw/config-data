@@ -4,9 +4,10 @@ some:
 server:
  port: 8090
 
-redis:
- host: localhost
- port: 6379
+alarm-config:
+ redis:
+  host: localhost
+  port: 6379
  
 wakeup:
  interval:
