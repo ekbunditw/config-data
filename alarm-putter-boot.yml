@@ -1,10 +1,10 @@
-redis:
- host: localhost
- port: 6379
-
-mongo:
- host: localhost
- port: 27017
+alarm-config:
+ redis:
+  host: localhost
+  port: 6379
+ mongo:
+  host: localhost
+  port: 27017
 
 receiver:
  using:
