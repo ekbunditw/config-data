@@ -20,6 +20,9 @@ alarm-config:
   desc-oid: 4
   severity-oid: 5
   date-time-oid: 6
+ mongo:
+  host: localhost
+  port: 27017
  
 wakeup:
  interval:
@@ -33,9 +36,7 @@ alarm-checker:
  mock:
   nx: true
 
-mongo:
- host: localhost
- port: 27017
+
  
 db:
  using:
