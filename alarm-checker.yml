@@ -8,6 +8,18 @@ alarm-config:
  redis:
   host: localhost
   port: 6379
+ snmp: 
+  time-out-millisec: 60000
+  address: 1234
+  port: 8080
+  clazzname: HP
+  enterprise-oid: 0
+  class-oid: 1
+  amo-oid: 2
+  alert-oid: 3
+  desc-oid: 4
+  severity-oid: 5
+  date-time-oid: 6
  
 wakeup:
  interval:
@@ -28,22 +40,7 @@ mongo:
 db:
  using:
    mongodb: true
-   oracle: false
-
-alarm-config:
- snmp: 
-  time-out-millisec: 60000
-  address: 1234
-  port: 8080
-  clazzname: HP
-  enterprise-oid: 0
-  class-oid: 1
-  amo-oid: 2
-  alert-oid: 3
-  desc-oid: 4
-  severity-oid: 5
-  date-time-oid: 6
-  
+   oracle: false  
   
 #logging part
 logging:
