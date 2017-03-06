@@ -23,6 +23,7 @@ alarm-config:
  mongo:
   host: localhost
   port: 27017
+  database-name: alarm-rule-config
  
 wakeup:
  interval:
