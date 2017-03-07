@@ -14,5 +14,5 @@ receiver:
   
 db:
  using:
-   mongodb: true
-   oracle: false
+   mongodb: false
+   oracle: true
