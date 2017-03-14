@@ -41,8 +41,8 @@ alarm-checker:
  
 db:
  using:
-   mongodb: true
-   oracle: false  
+   mongodb: false
+   oracle: true  
   
 #logging part
 logging:
