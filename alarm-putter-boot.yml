@@ -9,8 +9,8 @@ alarm-config:
 
 receiver:
  using:
-  http: false
-  kafka: true
+  http: true
+  kafka: false
   
 db:
  using:
