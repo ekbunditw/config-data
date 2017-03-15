@@ -1,0 +1,7 @@
+alarm-config:
+ redis:
+  cluster:
+   enabled: false
+   nodes: localhost:6379,localhost:6380
+  host: localhost
+  port: 6379
