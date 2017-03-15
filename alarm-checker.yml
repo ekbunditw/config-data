@@ -6,8 +6,9 @@ server:
 
 alarm-config:
  redis:
-  host: localhost
-  port: 6379
+  nodes: localhost:6379
+  #host: localhost
+  #port: 6379
  snmp: 
   time-out-millisec: 60000
   address: 1234
