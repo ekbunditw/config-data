@@ -10,4 +10,4 @@ alarm-config:
 alarm-admin:
   services:
     to:
-      take-care: SBMTESTSERVICE,SBMTESTSERVICE2,SBMTESTSERVICE3
+      take-care: SBMTESTSERVICE,SBMTESTSERVICE2
