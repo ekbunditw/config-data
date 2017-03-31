@@ -5,9 +5,9 @@ alarm-config:
    nodes: localhost:6379,localhost:6380
   host: localhost
   port: 6379
-  password: ~
+  password: null
   
 alarm-admin:
   services:
     to:
-      take-care: SBMTESTSERVICE,SBMTESTSERVICE2
+      take-care: SBMTESTSERVICE,SBMTESTSERVICE2,SBMTESTSERVICE3
